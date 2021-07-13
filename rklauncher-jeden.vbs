@@ -6,9 +6,9 @@ For Each licznikPR in ustawEQ
 Next
 Set obiektWS = WScript.CreateObject ("WScript.Shell")
 If Not(testPR = True) Then
-
   obiektWS.Run nazwaPR
 Else
   obiektWS.Run "rundll32 user32.dll, MessageBeep"
 End If
 Set obiektWMI = Nothing: Set obiektWS = Nothing
+  
